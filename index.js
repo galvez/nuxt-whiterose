@@ -7,7 +7,7 @@ const mp3 = resolve(__dirname, 'beep.mp3')
 function play () {
   let handle
   const handler = e => !e && handle.kill()
-  player.play(mp3, handle)
+  handle = player.play(mp3, handler)
 }
 
 export default function () {
