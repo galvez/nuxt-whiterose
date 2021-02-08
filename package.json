@@ -1,0 +1,12 @@
+{
+  "name": "nuxt-whiterose",
+  "version": "0.0.2",
+  "license": "MIT",
+  "main": "index.js",	
+  "scripts": {
+    "dev": "nuxt dev"
+  },
+  "dependencies": {
+    "play-sound": "^1.1.3"
+  }
+}
